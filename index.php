@@ -4,7 +4,7 @@
     <?php include_once './layout/head.php'; ?>
 
     <body>
-         <?php include_once './layout/nav.php'; ?>
+        <?php include_once './layout/nav.php'; ?>
         <section id="slider-home">
             <div class="container">
                 <div class="row">
@@ -30,14 +30,14 @@
 
         <section id="estudio-servicios">
 
-            <div id="estudio" class="col-md-6">
+            <div id="estudio-home" class="col-md-6">
                 <h2>El estudio</h2>
                 <p>Poseemos una gran trayectoria en el sector del<br/>
                     transporte y desarrollando proyectos de alta<br/>
                     complejidad y de gran tamaño.</p>
                 <a href="#" class="bt-sitio">Conozca el estudio</a>
             </div>
-            <div id="servicios" class="col-md-6">
+            <div id="servicios-home" class="col-md-6">
                 <h2>Servicios</h2>
                 <p>Conocemos los mercados, las tecnologías de<br/>
                     producción y escuchamos la necesidades de los <br/>

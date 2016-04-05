@@ -14,10 +14,10 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul>
-                    <li><a href="#">El estudio</a></li>
-                    <li><a href="#">Servicios</a></li>
+                    <li><a href="estudio.php">El estudio</a></li>
+                    <li><a href="servicios.php">Servicios</a></li>
                     <li><a href="proyectos.php">Proyectos</a></li>
-                    <li><a href="#">Clientes</a></li>
+                    <li><a href="clientes.php">Clientes</a></li>
                     <li><a href="contacto.php">Contacto</a></li>
                 </ul>
             </div><!--/.navbar-collapse -->

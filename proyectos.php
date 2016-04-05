@@ -3,24 +3,60 @@
 
     <?php include_once './layout/head.php'; ?>
 
-    <body>
+    <body class="dark-bg">
         <?php include_once './layout/nav.php'; ?>
 
 
-        <section id="proyectos">
-            <h1>Proyectos</h1>
-            <p>
-                La experiencia nos demuestran que cada empresa, tiene sus propias necesidades, requerimientos y posibilidades.<br/> 
-                Trabajamos en estrecha colaboración con nuestros clientes, formando equipos de trabajo con ellos, sus proveedores <br/>
-                y todos los involucrados en el desarrollo de sus productos.
-            </p>
+        <section id="proyectos" class="intro-module">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="intro-module-title">
+                            <h1>Proyectos</h1>
+
+                            <h2>Soluciones de diseño industrial 100% a su medida.</h2>
+                            <div class="separador-titulo"></div>
+                        </div>
+                        <div class="intro-module-content">
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </section>
 
 
 
 
+        <section id="listado-proyectos">
+
+            <div class="container">
+
+                <div class="col-md-12">
+
+                    <div id="filtro-proyectos">
+
+                        <ul>
+                            <li class="active">Ver Todos</li>
+                            <li>Agro</li>
+                            <li>Autopartes</li>
+                            <li>Productos</li>
+                            <li>Transporte</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+
         <?php $footerContacto = false;
-        include_once './layout/footer.php'; ?>
+        include_once './layout/footer.php';
+        ?>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
