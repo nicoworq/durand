@@ -110,23 +110,24 @@ h1,h2,h3,h4,p{
 #slider-home{
     background: url(../img/slider-bg1.jpg)no-repeat;
     background-size: cover;
-    height: 820px;
+    
     position: relative;
+}
+#slider-home .container{
+    margin-top: 0px;
 }
 
 #contenedor-slides{
     padding: 0;
     margin: 0;
-    list-style: none;
-    height: 820px;
+    list-style: none;  
     position: relative;
 }
 .slider-contenido{
-    position: absolute;
+    
     width: 100%;
-    left: 0;
-    top: 50%;
-    margin-top: -161px;
+   
+   
 }
 .slider-contenido .bt-cta{
     padding: 10px 37px;
@@ -205,16 +206,16 @@ h1,h2,h3,h4,p{
 
 
 /* -----------
- *  METODOLOGIA DE TRABAJO
+ *  METODOLOGIA DE TRABAJO HOME
  * ----------- */
 
-#metodologia-trabajo{
+#metodologia-trabajo-home{
     text-align: center;
     padding: 98px 0;
     background: #f8fafb;
 
 }
-#metodologia-trabajo h1{
+#metodologia-trabajo-home h1{
     color: #404040;
     font-size: 36px;
     font-weight: bold;
@@ -563,11 +564,11 @@ footer{
     padding-bottom: 53px;
 }
 footer.in-contacto{
-    background: url(../img/footer-bg.jpg)no-repeat;
+    background: url(../img/footer-bg.jpg)no-repeat 50%;
     background-size: cover;
 }
 #footer-contacto{
-    background: url(../img/footer-bg.jpg)no-repeat;
+    background: url(../img/footer-bg.jpg)no-repeat 50%;
     background-size: cover;
     text-align: center;
     padding: 160px 0;
@@ -870,7 +871,10 @@ footer .bt-sitio{
 
 #proyectos .separador-titulo{background: white;}
 #proyectos.intro-module{
-    padding: 298px 0 418px;
+    /*padding: 298px 0 418px;*/
+}
+#proyectos.intro-module .container{
+    margin-top: -163px;
 }
 
 
@@ -926,9 +930,12 @@ footer .bt-sitio{
 
 #servicios{
     background: url(../img/servicios-seccion-bg.jpg) no-repeat #35373c ;
-    background-size: auto;
+    background-size: cover;
 
 }
+
+#servicios.intro-module{    padding-top: 126px;}
+
 #servicios .separador-titulo{
     background: white;
 }
@@ -1070,13 +1077,19 @@ footer .bt-sitio{
  *  INTRO MODULE
  * ----------- */
 
-.fullscreen{
+.fullheight{
     height: 100vh;
-    width: 100%;
 }
 
 .intro-module{
-    padding: 298px 0 153px;
+    /*padding: 298px 0 153px;*/
+    display: table;
+    width: 100%;
+}
+
+.intro-module-inner{
+    display: table-cell;
+    vertical-align: middle;
 }
 
 .intro-module-title{}
@@ -1088,6 +1101,7 @@ footer .bt-sitio{
     margin: 0;
     font-weight: bold;
     letter-spacing: -3px;
+    line-height: 84px;
 }
 .intro-module .intro-module-title h2{
     font-size: 24px;
@@ -1253,8 +1267,9 @@ footer .bt-sitio{
     overflow: hidden;
 }
 #estudio.intro-module {
-    padding: 298px 0 441px;
+   /* padding: 298px 0 441px;*/
 }
+#estudio.intro-module .container{margin-top: -163px;}
 #estudio-logo-big{
     position: absolute;
     left: 0;
@@ -1300,6 +1315,7 @@ footer .bt-sitio{
     background: white;
     position: relative;
     margin-top: -105px;
+
 }
 .estudio-paralax{
     position: absolute;
@@ -1317,13 +1333,57 @@ footer .bt-sitio{
 }
 #e-pax3{
     right: 18%;
-   // width: 24%;
+    // width: 24%;
     top: 85%;
 }
 #e-pax4{
     right: 30px;
     top: 0;
     //width: 26%;
+}
+
+#estudio-bg {
+    padding: 0 30px;
+    display: table;
+    width: 100%;
+
+}
+
+#estudio-bg img{max-width: 100%;    width: 100%;}
+
+.estudio-col{
+    float: left;
+}
+
+.estudio-col1 {
+    width: 58%;
+    margin-top: 159px;
+    padding-right: 20px;
+}
+.estudio-col2{
+    width: 42%;
+}
+.estudio-col3{
+    width: 33%;
+    margin-top: 60px;
+}
+.estudio-col4{
+    width: 67%;
+    padding-left: 20px;
+}
+
+.estudio-col5{
+    width: 60%;
+    margin-top: -7.5vw;
+    padding-left: 20px;  
+}
+
+
+#estudio-content{
+    position: absolute;
+    top: 30vw;
+    bottom: 0;
+    width: 100%;
 }
 
 #durand-info{
@@ -1385,3 +1445,64 @@ footer .bt-sitio{
     margin-top: -2px;
     margin-right: 10px;
 }
+
+
+/* -----------
+ *  METODOLOGIA 
+ * ----------- */
+
+
+#metodologia-trabajo{
+    background: url(../img/metodologia-bg.jpg) no-repeat 50% #2c2e31;
+    background-size: cover;
+}
+
+#metodologia-trabajo.intro-module{    padding-top: 204px;}
+#metodologia-trabajo .separador-titulo{background: white;}
+
+#metodologia-trabajo #contenedor-metodologias svg{fill:white;}
+#metodologia-trabajo #contenedor-metodologias .metodologia h3{color:white;}
+
+
+#metodologia-pasos{
+    background: white;
+    padding-top: 136px;
+}
+
+.metodologia-explicada{
+    position: relative;
+    margin-bottom: 70px;
+}
+.metodologia-explicada h1{
+    color: #232323;
+    font-weight: bold;
+    font-size: 42px;
+    margin: 0;
+    letter-spacing: -1px;
+    margin-bottom: 38px;
+}
+.metodologia-explicada h1 span{color: #e55b01;margin-right: 18px}
+.metodologia-explicada p{
+    color: #45464a;
+    font-size: 17px;
+    line-height: 29px;
+}
+.metodologia-explicada-icono{
+    position: absolute;
+    left: -98px;
+    top: 6px;
+}
+
+.metodologia-explicada-icono svg{width: 50px;}
+
+.metodologia-explicada.met2 .metodologia-explicada-icono{left: -85px;}
+.metodologia-explicada.met2 svg{    width: 24px;}
+
+.metodologia-explicada.met3 .metodologia-explicada-icono{left: -92px;}
+.metodologia-explicada.met3 svg{    width: 38px;}
+
+.metodologia-explicada.met4 .metodologia-explicada-icono{left: -92px;}
+.metodologia-explicada.met4 svg{    width: 38px;}
+
+.metodologia-explicada.met5 .metodologia-explicada-icono{left: -93px;top: 8px;}
+.metodologia-explicada.met5 svg{    width: 41px;}

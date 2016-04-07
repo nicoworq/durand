@@ -6,43 +6,42 @@
     <body class="dark-bg">
         <?php include_once './layout/nav.php'; ?>
 
-        <section id="clientes" class="intro-module">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="intro-module-title">
-                            <div class="col-50">
-                                <h1>Nuestros clientes</h1>
-
-                                <h2>Cuidamos cada detalle, desde la etapa de desarrollo<br/>
-                                    hasta el producto final porque la satisfacción de nuestros<br/>
-                                    clientes es nuestro compromiso.</h2>
-                                <div class="separador-titulo"></div>
-                            </div>
-                            <div class="col-50">
-                                <div id="clientes-top" >
-                                    <div class="cliente-top cl-top1">
-                                        <img src="img/cliente-top1.png"/>
-                                    </div>
-                                    <div class="cliente-top cl-top2">
-                                        <img src="img/cliente-top2.jpg"/>
-                                    </div>
-                                    <div class="cliente-top cl-top3">
-                                        <img src="img/cliente-top3.png"/>
+        <section id="clientes" class="intro-module fullheight">
+            <div class="intro-module-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="intro-module-title">
+                                <div class="col-50">
+                                    <h1>Nuestros clientes</h1>
+                                    <h2>Cuidamos cada detalle, desde la etapa de desarrollo<br/>
+                                        hasta el producto final porque la satisfacción de nuestros<br/>
+                                        clientes es nuestro compromiso.</h2>
+                                    <div class="separador-titulo"></div>
+                                </div>
+                                <div class="col-50">
+                                    <div id="clientes-top" >
+                                        <div class="cliente-top cl-top1">
+                                            <img src="img/cliente-top1.png"/>
+                                        </div>
+                                        <div class="cliente-top cl-top2">
+                                            <img src="img/cliente-top2.jpg"/>
+                                        </div>
+                                        <div class="cliente-top cl-top3">
+                                            <img src="img/cliente-top3.png"/>
+                                        </div>
                                     </div>
                                 </div>
+
                             </div>
-
+                            <div class="intro-module-content">
+                                <img src="img/clientes-seccion-logos.jpg" alt="Clientes Durand"/>
+                            </div>
                         </div>
-                        <div class="intro-module-content">
-
-                            <img src="img/clientes-seccion-logos.jpg" alt="Clientes Durand"/>
-
-                        </div>
-
                     </div>
                 </div>
             </div>
+
         </section>
 
         <section id="clientes-eligen">
@@ -72,26 +71,7 @@
             </div>
         </section>
 
-        <section id="asesoramiento-contacto">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div id="asesoramiento-contacto-inner">
-                            <h1>Encuentre la respuesta<br/>
-                                y el asesoramiento<br/>
-                                que su empresa necesita</h1>
-                            <p>
-                                Dependiendo del tipo de proyecto trabajamos de forma independiente<br/> o en conjunto con los clientes y sus equipos de gestión, ventas, marke-<br/>ting y departamentos de producción, ingeniería, modelistas y matriceros<br/> entre otros.
-                            </p>
-                            <a href="#" class="bt-sitio bt-oscuro">Contáctenos</a>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </section>
+        <?php include_once './layout/asesoramiento-contacto.php'; ?>
 
 
         <?php include_once './layout/footer.php'; ?>

@@ -6,34 +6,36 @@
     <body class="dark-bg">
         <?php include_once './layout/nav.php'; ?>
 
-        <section id="servicios" class="intro-module">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="intro-module-title">
-                            <h1>Servicios</h1>
+        <section id="servicios" class="intro-module fullheight">
+            <div class="intro-module-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="intro-module-title">
+                                <h1>Servicios</h1>
 
-                            <h2>Brindamos soluciones de productos a su medida</h2>
-                            <div class="separador-titulo"></div>
-                        </div>
-                        <div class="intro-module-content">
+                                <h2>Brindamos soluciones de productos a su medida</h2>
+                                <div class="separador-titulo"></div>
+                            </div>
+                            <div class="intro-module-content">
 
-                            <div id="servicios-accesos">
-                                <div class="servicio-acceso sa1">
-                                    <h3>Diseño de productos</h3>
-                                </div>
-                                <div class="servicio-acceso sa2">
-                                    <h3>Rediseño de productos</h3>
-                                </div>
-                                <div class="servicio-acceso sa3">
-                                    <h3>Diseño de medios <br/>de transporte</h3>
-                                </div>
-                                <div class="servicio-acceso sa4">
-                                    <h3>Asesoramiento <br/>de empresas</h3>
+                                <div id="servicios-accesos">
+                                    <div class="servicio-acceso sa1">
+                                        <h3>Diseño de productos</h3>
+                                    </div>
+                                    <div class="servicio-acceso sa2">
+                                        <h3>Rediseño de productos</h3>
+                                    </div>
+                                    <div class="servicio-acceso sa3">
+                                        <h3>Diseño de medios <br/>de transporte</h3>
+                                    </div>
+                                    <div class="servicio-acceso sa4">
+                                        <h3>Asesoramiento <br/>de empresas</h3>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -106,7 +108,7 @@
                 <div class="container">
                     <div class="servicio-inner">
                         <div class="servicio-img">
-                          
+
                             <h3>Asesoramiento<br/>
                                 de empresas</h3>
                             <p>It has survived not only five centuries, but also the

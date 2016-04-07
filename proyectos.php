@@ -7,24 +7,27 @@
         <?php include_once './layout/nav.php'; ?>
 
 
-        <section id="proyectos" class="intro-module">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="intro-module-title">
-                            <h1>Proyectos</h1>
+        <section id="proyectos" class="intro-module fullheight">
+            <div class="intro-module-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="intro-module-title">
+                                <h1>Proyectos</h1>
 
-                            <h2>Soluciones de diseño industrial 100% a su medida.</h2>
-                            <div class="separador-titulo"></div>
+                                <h2>Soluciones de diseño industrial 100% a su medida.</h2>
+                                <div class="separador-titulo"></div>
+                            </div>
+                            <div class="intro-module-content">
+
+
+                            </div>
+
                         </div>
-                        <div class="intro-module-content">
-
-
-                        </div>
-
                     </div>
                 </div>
             </div>
+
         </section>
 
 
@@ -54,7 +57,8 @@
 
         </section>
 
-        <?php $footerContacto = false;
+        <?php
+        $footerContacto = false;
         include_once './layout/footer.php';
         ?>
 

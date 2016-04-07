@@ -6,23 +6,25 @@
     <body class="dark-bg">
         <?php include_once './layout/nav.php'; ?>
 
-        <section id="estudio" class="intro-module">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="intro-module-title">
-                            <h1>El estudio</h1>
+        <section id="estudio" class="intro-module fullheight">
+            <div class="intro-module-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="intro-module-title">
+                                <h1>El estudio</h1>
 
-                            <h2>Desde 2004 diseñando soluciones para industrias</h2>
-                            <div class="separador-titulo"></div>
-                        </div>                       
+                                <h2>Desde 2004 diseñando soluciones para industrias</h2>
+                                <div class="separador-titulo"></div>
+                            </div>                       
 
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div id="estudio-logo-big">
-                <img src="img/duranga.svg"/>
+                <div class="parallaxy-animate"  id="estudio-logo-big" parallaxy-options='{"multiplier":"0.2", "direction":"up", "positionType": "absolute"}'>
+                    <img src="img/duranga.svg"/>
+                </div>
             </div>
         </section>
 
@@ -69,47 +71,72 @@
         </section>
 
         <section id="estudio-durand">
-            
-            <div class='estudio-paralax' id='e-pax1'>
-                <img src='img/diego-durand.jpg' alt='Diego Durand'/>
-            </div>
-            <div class='estudio-paralax' id='e-pax2'>
-                <img src='img/estudio-paralax1.jpg' alt='Estudio'/>
-            </div>
-            <div class='estudio-paralax' id='e-pax3'>
-                <img src='img/estudio-paralax2.jpg' alt='Estudio'/>
-            </div>
-            <div class='estudio-paralax' id='e-pax4'>
-                <img src='img/estudio-paralax3.png' alt='Estudio'/>
-            </div>
-            
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div id="durand-info">
-                            <h1>Diego Durand</h1>
-                            <p>Es un diseñador con trayectoria en el sector del
-                                transporte y sus derivados y en el diseño de productos variados, con experiencia, especialmente en proyectos grandes y complejos.</p>
 
-                            <ul>
-                                <li>
-                                    <span>≈</span>Fundador y Director en Durand Design.
-                                </li>
-                                <li>
-                                    <span>≈</span>Diseñador industrial de UNC.
-                                </li>
-                                <li>
-                                    <span>≈</span>Docente universitario en FADU UNL.
-                                </li>
 
-                            </ul>
-                            <a href="#"><img src='img/linkedin.png' alt="Linkedin" />Ver en Linkedin</a>
-                        </div>
+            <div id="estudio-bg">
+                <div class="estudio-col estudio-col1" >
+                    <div class="parallaxy-animate" id='e-pax1' parallaxy-options='{"multiplier":"0.025", "direction":"up", "positionType": "relative"}'>
+                        <img src='img/diego-durand.jpg' alt='Diego Durand'/>
                     </div>
                 </div>
+                <div class="estudio-col estudio-col2">
 
+                    <div class="estudio-col estudio-col3">
+                        <div class="parallaxy-animate"  id='e-pax2'  parallaxy-options='{"multiplier":"0.03", "direction":"up", "positionType": "relative"}'>
+                            <img src='img/estudio-paralax1.jpg' alt='Estudio'/>
+                        </div>
+                    </div>
+                    <div class="estudio-col estudio-col4">
+                        <div class="parallaxy-animate" id='e-pax4'  parallaxy-options='{"multiplier":"0.03", "direction":"up", "positionType": "relative"}'>
+                            <img src='img/estudio-paralax3.png' alt='Estudio'/>
+                        </div>
+
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="estudio-col estudio-col5">
+                        <div class="parallaxy-animate" id='e-pax3'   parallaxy-options='{"multiplier":"0.03", "direction":"up", "positionType": "relative"}'>
+                            <img src='img/estudio-paralax2.jpg' alt='Estudio'/>
+                        </div> 
+                    </div>
+                </div>
             </div>
+
+
+
+
+            <div id="estudio-content" class="parallaxy-animate" parallaxy-options='{"multiplier":"0.07", "direction":"up", "positionType": "absolute"}'>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div id="durand-info">
+                                <h1>Diego Durand</h1>
+                                <p>Es un diseñador con trayectoria en el sector del
+                                    transporte y sus derivados y en el diseño de productos variados, con experiencia, especialmente en proyectos grandes y complejos.</p>
+
+                                <ul>
+                                    <li>
+                                        <span>≈</span>Fundador y Director en Durand Design.
+                                    </li>
+                                    <li>
+                                        <span>≈</span>Diseñador industrial de UNC.
+                                    </li>
+                                    <li>
+                                        <span>≈</span>Docente universitario en FADU UNL.
+                                    </li>
+
+                                </ul>
+                                <a href="#"><img src='img/linkedin.png' alt="Linkedin" />Ver en Linkedin</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
         </section>
+
+        <?php include_once './layout/asesoramiento-contacto.php'; ?>
 
         <?php include_once './layout/footer.php'; ?>
 

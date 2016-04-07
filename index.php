@@ -5,27 +5,30 @@
 
     <body>
         <?php include_once './layout/nav.php'; ?>
-        <section id="slider-home">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <ul id="contenedor-slides">
-                            <li>
-                                <div class="slider-contenido">
-                                    <h1>Diseñamos<br/>
-                                        sus productos</h1>
-                                    <div class="separador-titulo"></div>
-                                    <p>Contamos con 11 años de experiencia y más de 100 proyectos realizados<br/>
-                                        en forma comprometida con nuestros clientes, focalizando en los tiempos<br/>
-                                        y marcos económicos dados.</p>
-                                    <a href="#" class="bt-sitio bt-cta">Conocenos</a>
-                                </div>
-                            </li>
-                        </ul>
+        <section id="slider-home" class="fullheight intro-module">
+            <div class="intro-module-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul id="contenedor-slides">
+                                <li>
+                                    <div class="slider-contenido">
+                                        <h1>Diseñamos<br/>
+                                            sus productos</h1>
+                                        <div class="separador-titulo"></div>
+                                        <p>Contamos con 11 años de experiencia y más de 100 proyectos realizados<br/>
+                                            en forma comprometida con nuestros clientes, focalizando en los tiempos<br/>
+                                            y marcos económicos dados.</p>
+                                        <a href="#" class="bt-sitio bt-cta">Conocenos</a>
+                                    </div>
+                                </li>
+                            </ul>
 
+                        </div>
                     </div>
                 </div>
             </div>
+
         </section>
 
         <section id="estudio-servicios">
@@ -50,7 +53,7 @@
         </section>
 
 
-        <section id="metodologia-trabajo">
+        <section id="metodologia-trabajo-home">
 
             <div class="container">
                 <div class="col-md-12">
@@ -150,7 +153,7 @@
                             <h3>Control y aprobación</h3>
                         </div>
                     </div>
-                    <a href="#" class="bt-cta bt-sitio">Como trabajamos</a>
+                    <a href="metodologia.php" class="bt-cta bt-sitio">Como trabajamos</a>
                 </div>
             </div>
 
